@@ -1,0 +1,22 @@
+addi $t0 $zero 1
+addi $t1 $zero 2
+addi $t2 $zero 4
+addi $t3 $zero 8
+addi $t4 $zero 16
+addi $sp $zero 32
+
+sll $t0 $t0 5
+sll $t1 $t1 4
+sll $t2 $t2 3
+sll $t3 $t3 2
+sll $t4 $t4 1
+sll $sp $sp 0
+
+srl $t0 $t0 5
+srl $t1 $t1 4
+srl $t2 $t2 3
+srl $t3 $t3 2
+srl $t4 $t4 1
+srl $sp $sp 0
+
+j 6
